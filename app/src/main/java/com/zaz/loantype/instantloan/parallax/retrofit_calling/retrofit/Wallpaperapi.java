@@ -7,7 +7,7 @@ public class Wallpaperapi {
 
     public static Retrofit getClient() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://filedn.eu/lT5MTrPP9oSbL8W0tjWsva5/inCall/Wallpaper/Wallpaper%20List/")
+                .baseUrl("fiest appi")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         return retrofit;
